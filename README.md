@@ -30,7 +30,7 @@ GuardIAn/
 ├── videos_para_testar/
 |   └── coloque_seus_videos_de_teste_aqui.txt
 |
-├── GuardIAn FINAL github.ipynb  <-- O notebook principal
+├── GuardIAn.ipynb <-- O notebook principal
 |
 └── README.md
 ```
