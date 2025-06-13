@@ -6,13 +6,14 @@ O Guard.IAn é um sistema de Inteligência Artificial projetado para detectar vi
 
 Essa abordagem permite que o modelo não apenas "veja" o que está acontecendo em um instante, mas também entenda o "contexto" de como a cena evolui ao longo do tempo, o que é crucial para diferenciar interações normais de agressões reais. O sistema implementa uma análise por **janela deslizante** para simular o monitoramento em tempo real.
 
+Para treinamento do modelo, foi utilizado o data-set disponibilizado pelo site Kaggle: "Real Life Violence Situations Dataset", porém por limitações de hardware, foi utilizado uma versão reduzida do data-set: https://www.kaggle.com/datasets/mohamedmustafa/real-life-violence-situations-dataset/data
+
 ## ✨ Funcionalidades
 
 * **Extração de Características com VGG-16:** Utiliza um modelo pré-treinado robusto para converter frames de vídeo em vetores de características de alta qualidade.
 * **Análise Temporal com LSTM:** Aprende a reconhecer padrões em sequências de frames para classificar um clipe de vídeo como "Violento" ou "Não Violento".
 * **Análise por Janela Deslizante:** Processa vídeos longos de forma contínua, analisando pequenos trechos (janelas) em sequência para detectar violência no momento em que ocorre.
 * **Modelo Pré-Treinado Incluso:** O repositório já contém um modelo treinado (`guardian_model.h5`), pronto para uso imediato.
-
 ## 📂 Estrutura do Projeto
 
 ```
